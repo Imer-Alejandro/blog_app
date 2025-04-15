@@ -21,7 +21,9 @@ Instalación y ejecución
 
 1. Clona el repositorio:
 
-git clone https://github.com/tu-usuario/blog-app.git
+git clone https://github.com/Imer-Alejandro/blog_app.git
+
+
 cd blog_app
 
 

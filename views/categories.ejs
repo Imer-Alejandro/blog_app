@@ -1,0 +1,35 @@
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-8 col-xl-6">
+      <div class="card shadow border-0">
+        <div class="card-body">
+          <h2 class="card-title text-center text-primary mb-4">
+            <i class="bi bi-tags-fill me-2"></i>Gestión de Categorías
+          </h2>
+
+          <!-- Formulario para agregar/editar -->
+          <form id="categoryForm" class="mb-4"> 
+            <div class="input-group">
+              <input type="text" class="form-control" name="name" id="categoryNameInput" placeholder="Nombre de la categoría" required>
+              <button type="submit" class="btn btn-success">
+                <i class="bi bi-save me-1"></i>Guardar
+              </button>
+            </div>
+            <!-- Campo oculto para actualizar -->
+            <input type="hidden" name="categoryId" id="categoryId">
+          </form>
+
+          <!-- Lista de categorías -->
+          <ul id="categoryList" class="list-group">
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap Icons para los botones -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+<script src="/js/category.js"></script>

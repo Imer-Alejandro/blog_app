@@ -1,0 +1,25 @@
+<h2>Editar publicación</h2>
+<form id="editPostForm" data-id="<%= id %>" class="p-4 bg-light shadow rounded">
+  <div class="mb-3">
+    <label for="title" class="form-label">Título</label>
+    <input type="text" id="title" name="title" class="form-control" placeholder="Título" required>
+  </div>
+
+  <div class="mb-3">
+    <label for="content" class="form-label">Contenido</label>
+    <textarea id="content" name="content" class="form-control" placeholder="Contenido" required></textarea>
+  </div>
+
+  <div class="mb-3">
+    <label for="category" class="form-label">Categoría</label>
+    <select id="categorySelect" name="category" class="form-select" required>
+      <!-- Las opciones de categorías se llenarán desde JavaScript -->
+    </select>
+  </div>
+
+  <button type="submit" class="btn btn-primary w-100">Guardar cambios</button>
+</form>
+
+<script src="/js/post.js"></script>
+<script src="/js/edit-post.js"></script>
+

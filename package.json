@@ -12,6 +12,7 @@
   "description": "",
   "dependencies": {
     "chromedriver": "^135.0.1",
+    "cors": "^2.8.5",
     "ejs": "^3.1.10",
     "express": "^5.1.0",
     "express-ejs-layouts": "^2.5.1",
